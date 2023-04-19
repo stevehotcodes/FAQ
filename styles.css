@@ -1,60 +1,85 @@
-.container{
-    width:70%;
-    margin: auto;
-    height:100vh;
-    padding:0px 0;
+body{
     background-color:  hsl(273, 75%, 66%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-    
+/* .container{
+   
+}  */
 .content{
-     width: 90%;
-     height: 90%;
-     background-color: white;
-     margin: 200px 150px 200px 150px;
-     border-radius: 20px;
-     display: flex;
-     
-     
+    width:60%;
+    margin: 9rem auto;
+    height:70vh;
+    /* padding:0px 0; */
+    /* border: 2px solid black;  */
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    border-radius: 2rem;
 }
+/* /* .bg{
+    /* position: relative; */
+    /* border:2px solid yellow;
+    top:1rem;
+    left:2px; */
+    /* bottom:2rem;   */
+    /* border:2px solid black; */
+    /* max-height: 40vh;
+    max-width: 40vw; */
+     /* width: 100%;
+    height: 100%;  */
+    /* object-fit: cover; */
+    /* padding-bottom: 30rem; */
+  */
+/* .woman{
+    /* position: absolute;
+    left:15rem; */
+ */
+     
 .picture, .FAQ{
     
-    height:inherit;
+    /* height:inherit; */
     flex-direction: column;
-    margin-top:20px;
+     /* margin-top:20px;  */
 
 
 }
 .FAQ{
-    margin-top: 90px;
+    margin-top: 90px; 
     width:55%;
+    height: 100%;
     margin-bottom: -20px;
     margin-right: 20px;
-    margin-left: 20px;;
-    
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    */
 }
 
 .picture{
-   
-    width: 45%;
+    /* border: 2px solid black; */
+     width: 45%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: absolute;  */
+     background: url(/images/bg-pattern-desktop.svg) center center/cover no-repeat ; 
+    /* background-size: ; */
 }
 .picture svg{
-    margin-left:-30px;
+    margin-left:-7.5rem;
 }
-.FAQ h2,p{
-    font:2em;
-    text-align:left;
+.FAQ {
+    font:0.3rem;
+    text-align:center;
     /*margin-left:20px;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
 }
-p{
 
-}
 .divider {
     display:flex;
     border-bottom:2px solid hsl(240, 5%, 91%);
@@ -69,6 +94,23 @@ p{
 }
 .icon{
     display:flex;
-    margin-left: 100px;
+    margin-left: 20px;
 }
-    
+.attribution{
+    display: flex;
+    justify-content: center;
+   
+
+}
+details{
+    /* display: none; */
+    border:none;
+    outline: none;
+}
+.faq-desc{
+   min-height: 90vh;
+   /* padding: 20px; */
+   /* width:; */
+   margin-left: 2rem;
+}
+
